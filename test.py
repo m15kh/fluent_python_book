@@ -1,15 +1,5 @@
-class Bus:
+a = list(map(lambda x : x**2, [1,2,3]))
+print(a)
 
-    def __init__(self, passengers=None):
-        if passengers is None:
-            self.passengers = []
-        else:
-            self.passengers = list(passengers)
-    def pick(self, name):
-        self.passengers.append(name)
-
-    def drop(self, name):
-        self.passengers.remove(name)
-
-bus = Bus()
-bus.pick("John")
+b = [x ** 2 for x in [1,2,3]]
+print(b)

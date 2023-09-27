@@ -11,4 +11,3 @@ x1 = (1,2,3)
 x2 = list(x1)
 print(f"x1:{id(x1)}\nx2:{id(x2)}")
 
-def f
